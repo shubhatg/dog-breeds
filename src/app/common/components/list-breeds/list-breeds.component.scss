@@ -1,0 +1,27 @@
+:host{
+img{
+    display:block;
+    margin: -45px auto 10px auto;
+    transition:all .5s ;
+    border:1px solid #000;
+}
+}
+ 
+  #bg-header {
+    min-height: 200px;
+    background: url('../../../../assets/green-bg-dog.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    // color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    .header-text{
+        margin-top:3rem;
+        color: black;
+        font-size: 20px;
+    }
+
+  }
+

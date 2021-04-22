@@ -1,0 +1,6 @@
+
+  <div class="card">
+  <label for="typeahead-format">Breed Name:</label>
+  <input id="typeahead-format" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" 
+  [resultFormatter]="resultFormatBandListValue" [inputFormatter]="inputFormatBandListValue" />
+</div>

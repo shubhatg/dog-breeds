@@ -1,0 +1,12 @@
+    <div class="container" class="w-100">
+    <section id="bg-header">
+
+        <div class="header-text"> Place to know More about your favorite breeds!</div>    
+        </section>
+        <search-breed [breedList]="processedBreedList" (selectedBreed)="catchDogSelected($event)"> </search-breed>
+
+
+        <div class="breed-content"><img [src]="displayImage" alt="Dog Picture" width="500" height="600" *ngIf="displayImage"></div>
+
+        </div>
+
